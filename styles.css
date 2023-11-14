@@ -1,0 +1,11 @@
+.col-8{
+    display: flex;
+    width :250;
+    height :250;
+}
+.col{
+    display: flex;
+    width :250;
+    height :250;
+}
+body { overflow-x: hidden; /* Hide horizontal scrollbar */ }

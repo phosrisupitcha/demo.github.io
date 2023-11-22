@@ -14,48 +14,75 @@
 </head>
   <body>
     <section id="navbar">
-        <nav class="navbar navbar-expand-md fixed-top" style="background-color: #007fa4;">
-            <div class="container-fluid"><img src="static/logo.png" alt="" width="60" height="30">
-              <!-- <a class="navbar-brand" href="index.html" style="color: #003e51;"><h2><b>True Tower</b></h2></a> -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="index.html" ><b>Home</b></a>
-                  <a class="nav-link" href="floorplan.html" >Floor Plan</a>
-                  <a class="nav-link" href="location.html">Location</a>
-                  <a class="nav-link" href="gallery.html">Gallery</a>
-                  <a class="nav-link" href="service.html">Service</a>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Blog
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="news.html">News</a>
-                      <a class="dropdown-item active" href="event.html">Event</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Thai/English
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Thai</a>
-                      <a class="dropdown-item" href="#">English</a>
-                    </div>
-                  </li>
-                  <a href="contactus.html" class="btn btn-secondary btn active" role="button" aria-pressed="true">Contact Us</a>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #007fa4;">
+        <div class="container-fluid">
+          <img src="static/logo.png" alt="" width="60" height="30">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" ><b>Home</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  True Tower 1
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="AboutT1.html">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="galleryT1.html">Gallery</a></li>
+                  <li><a class="dropdown-item" href="floorplanT1.html">Floor Plan</a></li>
+                  <li><a class="dropdown-item" href="serviceT1.html">Service</a></li>
+                  <li><a class="dropdown-item" href="locationT1.html">Location</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  True Tower 2
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="AboutT2.html">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="galleryT2.html">Gallery</a></li>
+                  <li><a class="dropdown-item" href="floorplanT2.html">Floor Plan</a></li>
+                  <li><a class="dropdown-item" href="serviceT2.html">Service</a></li>
+                  <li><a class="dropdown-item" href="locationT2.html">Location</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Blog
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="news.html">News</a>
+                  <a class="dropdown-item active" href="event.html">Event</a>
                 </div>
-              </div>
-            </div>
-          </nav>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Language
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Thai</a>
+                  <a class="dropdown-item" href="#">English</a>
+                </div>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a href="contactus.html" class="btn btn-secondary btn active">Contact Us</a>
+            </form>
+          </div>
+        </div>
+      </nav>
     </section>
     <br>
     <section id="name" class="text-center">
       <hr class="my-4">
       <div class="card">         
-          <h1 class="display-4"><b><a style="color:#007fa4;">True Tower 2</a></b> | Event </h1>  
+          <h1 class="display-4"><b><a style="color:#007fa4;"></a></b> Event </h1>  
         </div><br>
     </section>
     <section id="body">

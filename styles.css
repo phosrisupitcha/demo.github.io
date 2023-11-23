@@ -12,21 +12,9 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */ 
 }
 
-a.nav-link {
+/* a.nav-link {
     color: white;
-}
-#T2{
-    /* position: absolute;
-    color: red;
-    font-size: 18px;
-    top: 50%;
-    text-align: center;
-    font-weight: bold;    
-    width: 100%;    */
-}
-/* #head {
-    background-image: url('static/pics/front/F\ \(4\).JPG');
-    background-size: cover;
-    height: auto; 
-    width: auto;
 } */
+/* .nav-tabs > li > .nav-link active {
+    border-color:#007fa4 ;
+ } */
